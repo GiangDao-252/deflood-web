@@ -1,0 +1,99 @@
+/* src/components/ReportModal.css */
+.report-modal {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .report-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .report-header h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .report-header .close-button {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #aaa;
+  }
+  
+  .report-body {
+    padding: 20px;
+  }
+  
+  .report-body p {
+    margin-top: 0;
+    color: #555;
+  }
+  
+  .level-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .level-option {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .level-option:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .level-option.selected {
+    border-color: #d93025; /* Màu đỏ chủ đạo */
+    background-color: #fdeeee;
+  }
+  
+  .level-option input[type="radio"] {
+    display: none; /* Ẩn nút radio gốc */
+  }
+  
+  .level-option .icon {
+    font-size: 24px;
+    margin-right: 15px;
+  }
+  
+  .report-footer {
+    padding: 15px 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .cancel-button, .submit-button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #eee;
+    color: #333;
+  }
+  
+  .submit-button {
+    background-color: #d93025;
+    color: white;
+  }

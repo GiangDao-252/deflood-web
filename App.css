@@ -1,0 +1,7 @@
+/* src/App.css */
+.app-container {
+  position: relative; /* Quan trọng để các nút con `absolute` hoạt động đúng */
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Tránh bị scroll */
+}

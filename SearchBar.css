@@ -1,0 +1,36 @@
+/* src/components/SearchBar.css */
+.searchbar-container {
+    position: absolute; /* Nổi lên trên */
+    top: 15px;
+    left: 15px;
+    width: calc(100% - 40px); /* Gần full chiều rộng */
+    max-width: 400px; /* Nhưng không quá to trên desktop */
+    height: 50px;
+    background-color: white;
+    border-radius: 25px; /* Bo tròn */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    padding: 0 5px;
+  }
+  
+  .searchbar-container input {
+    flex-grow: 1; /* Chiếm phần lớn không gian */
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  
+  .menu-button, .search-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+  }
